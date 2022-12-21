@@ -1,0 +1,139 @@
+*{
+	padding: 0px;
+	margin-top: 0px;
+	box-sizing: border-box;
+	font-family: 'Orbitron';
+	text-decoration: none;
+	list-style: none;
+}
+
+
+.container{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body{
+	background-image: url("resq.jpg");
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	background-attachment: fixed;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+header{
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 10%;
+	transitionL all .50s ease;
+}
+
+.navbar{
+	display: flex;
+}
+
+.logo{
+	color: white;
+	font-size: 5rem;
+}
+
+
+.navbar a{
+	color: white;
+	font-size: 1.3rem;
+	font-weight: 500;
+	margin: 50px 30px;
+	padding: 10px 10px;
+}
+
+.navbar a:hover{
+	color: gold;
+	border-bottom: 3px solid;
+	transition: all .1s ease;
+}
+
+.main{
+	display: flex;
+	align-items: center;
+}
+
+.main a{
+	color: black;
+	font-size:2rem;
+	padding: 5px 15px;
+	border-radius: 30px;
+	background-color: white;
+}
+
+.main a:hover{
+	color: white;
+	background-color: black;
+}
+
+#hero h1{
+	display: block;
+	color: white;
+	font-size: 8rem;
+	width: fit-content;
+	position: relative;
+	display: inline;
+}
+#hero h2{
+	color: white;
+	font-size: 2.5rem;
+}
+
+#hero .hero{
+	max-width: 1600px;
+	margin: 0 auto;
+	justify-content: flex-start;
+}
+
+.parallax{
+	color:white;
+	opacity: 0.7;
+	height:500px;
+	background-color:black;
+	font-size:36px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about .about{
+	flex-direction: column;
+	background-color: black;
+	opacity: 0.85;
+	text-align: center;
+	margin: 0 auto;
+	padding: 100px 0;
+	margin-top: 0;
+}
+
+#about .title{
+	font-size: 7rem;
+	color: white;
+	margin-top: 0;
+}
+
+#about p{
+	letter-spacing: 2px;
+	font-size: 1.3rem;
+	color: white;
+	margin-top: 0;
+}
